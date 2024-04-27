@@ -1,0 +1,109 @@
+.contact__container{
+    grid-template-columns: 4fr 8fr;
+}
+
+.contact__title{
+    font-size: var(--h3-font-size);
+    font-weight: var(--weight-600);
+    margin-bottom: 1rem;
+}
+
+.contact__description{
+    font-size: var(--small-font-size);
+    line-height: 1.6;
+}
+
+.contact__description,
+.contact__info .info__item {
+    margin-bottom: 20px;
+}
+
+.contact__info .info__icon{
+    color: var(--first-color);
+    font-size: var(--h2-font-size);
+}
+
+.contact__info{
+    display: flex;
+    align-items: center;
+    column-gap: 19px;
+    margin: auto 350px;
+    margin-bottom: 10px;
+}
+
+.contact__info .info__title{
+    font-size: var(--small-font-size);
+}
+
+.contact__info .info__desc {
+    font-family: var(--body-font);
+    font-size: var(--small-font-size);
+    font: var(--weight-500);
+}
+
+.contact__socials{
+    display: flex;
+    column-gap: 16px;
+    margin: auto 460px;
+    /* padding: 0px; */
+}
+
+.contact__social_link{
+    /* background-color: var(--container-color); */
+    background-color: rgb(175, 226, 235);
+    color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 44px;
+    transition: all 0.3s ease;
+}
+
+.contact__social_link:hover{
+    background-color: var(--first-color);
+    color: var(--text-white);
+}
+
+.form__input-group{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 30px;
+    margin-top: 10px;
+}
+
+.form__input-div{
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.form__control{
+    border: 1px solid var(--container-color);
+    background-color: var(--container-color);
+    color: var(--title-color);
+    width: 50%;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-size: var(--small-font-size);
+    transition: all 0.5s ease;
+    margin: auto 25%;
+}
+
+.form__control:focus{
+    border-color: var(--first-color);
+}
+
+.form__control:hover{
+    background-color: rgb(211, 215, 218);
+}
+
+.textarea{
+    resize: none;
+    height: 160px;
+    margin-top: 15px;
+}
+
+.contact__button-icon{
+    font-size: var(--h3-font-size);
+    line-height: 64px;
+}
